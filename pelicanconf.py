@@ -17,7 +17,7 @@ STATIC_PATHS = ['images']
 
 TIMEZONE = 'America/Los_Angeles'
 
-DEFAULT_LANG = 'English'
+DEFAULT_LANG = 'en'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -41,6 +41,11 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 # Fixed menu entries
 MENUITEMS = [
         ('Archives', '/archives.html')
+]
+
+# Files to ignore
+IGNORE_FILES = [
+        ".\changeme.md"
 ]
 
 # Social widget

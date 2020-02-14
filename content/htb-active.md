@@ -2,7 +2,7 @@ Title: Active - Hack the Box
 Date: 2018-12-08
 Modified: 2020-02-05
 Category: ctf
-Tags: ctf, hack the box
+Tags: ctf, hack the box, oscp prep
 Slug: htb-active
 Authors: Riley
 Summary: Guide to Active from Hack the Box, featuring a Kerberoast attack.
