@@ -329,17 +329,17 @@ The only issue with using Watson now is that as of v2.0 it only supports Windows
 
 To compile the requisite binary, I installed Visual Studio Community (with all C# functionality) and Git on a Windows 10 machine and cloned the Github  repository.
 
-![](images/ctf/htb/devel/watson_clone_repo-1.png)
+![Clone repo 1](images/ctf/htb/devel/watson_clone_repo-1.png)
 
-![](images/ctf/htb/devel/watson_clone_repo-2.png)
+![Clone repo 2](images/ctf/htb/devel/watson_clone_repo-2.png)
 
 Then, under **Team Explorer** on the bottom right, there is a list of Local Git Repositories (I have two other projects cloned).  Right click Watson and select **Open Command Prompt**.
 
-![](images/ctf/htb/devel/watson_checkout-1.png)
+![Checkout 1](images/ctf/htb/devel/watson_checkout-1.png)
 
 The last version of Watson that was compatible with other editions of Windows is commit **486ff207270e4f4cadc94ddebfce1121ae7b5437**.  To get this version, run `git checkout 486ff207270e4f4cadc94ddebfce1121ae7b5437` in the command prompt.
 
-![](images/ctf/htb/devel/watson_checkout-2.png)
+![Checkout 2](images/ctf/htb/devel/watson_checkout-2.png)
 
 Now we need the target .NET version.  This can be almost any version isntalled on the machine, but we should know what's available before compiling.
 
@@ -514,7 +514,7 @@ c:\windows\system32\inetsrv>
 
 Now we have a 'pure' netcat reverse shell.  Executing the exploit again,
 
-![](images/ctf/htb/devel/get_system.png)
+![System Get!](images/ctf/htb/devel/get_system.png)
 
 My theory appears to have been correct!  From here, it is trivially easy to locate and read from the flag files.
 

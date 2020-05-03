@@ -1,10 +1,11 @@
 Title: Beep - Hack the Box
 Date: 2020-04-26
+Modified: 2020-05-03
 Category: ctf
 Tags: ctf, hack the box, oscp prep
 Slug: htb-beep
 Authors: Riley
-Summary: Guide to Beep from Hack the Box
+Summary: Guide to Beep on Hack the Box.
 
 ## Description
 
